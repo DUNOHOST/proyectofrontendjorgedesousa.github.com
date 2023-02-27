@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="icon" sizes="180x180" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/functions.js"></script>
+</head>
+
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">INICIO </a>
+                    <a href="#experiencia">EXPERIENCIA LABORAL</a>
+                    <a href="#contacto">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+    <!--ENCABEZADO-->
+        <header class="encolumnar">
+            <section id="presentacion">
+                <h1>CHARLES XAVIER</h1>
+    
+                <h2>PROFESOR X | MUTANTE TELEPATA </h2> 
+    
+                <p>
+                    Tal vez, me recuerdes por mi participacion en los <strong> X-MEN </strong> antes de perder el cabello.
+                    Me dedico a educar nuevos mutantes a controlar sus poderes y a combatir el mal.
+                    Dirijo una escuela privada en <strong>MANSION X </strong>. Me esfuerzo por servir a un bien mayor
+                    generando la coexistencia entre especies (Mutantes y no Mutantes) 
+                    En mis multiples batallas, perdí la movilidad de mis piernas pero seguimos laburando
+                    en una silla de ruedas que levita en aire bien chingona! 
+
+                    <strong>
+                        ¡y bueno...como la crisis nos pega a todos, aca ando haciendo mi CV!</strong> 
+                </p>
+    
+            </section>
+    
+            <section>
+                <img src="imagenes/beto1.webp" alt="beto1">
+    
+            </section>
+    
+        </header>
+
+    <!-- Parte Principal-->
+        <main>
+            <div class="encolumnar">
+                <section>
+                    <h3>HABILIDADES</h3>
+    
+                   <p>Soy brillante siendo uno de los telépatas mutantes mas poderosos  <br>
+                      del mundo. Cientifico nuclear genio y autoridad  lider en genética. <br> 
+                      Creador de <strong>CEREBRO</strong> y otros equipos  para rastrear a  
+                      otros mutantes <br> y a tu toxi.  
+                     <strong>¡Tambien enseñé a Bart con el don de telepatía ¿no me crees?
+                     <br> mirá acá... </strong>
+                    </p>
+
+                <div id="bart">
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/UV4TplRsaD8" title="Las muertes de Willy | La casita del horror 5 | Los simpson" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div >                
+
+                </section>
+
+    <!-- FORMACION ACADEMICA-->
+                <section>
+    
+                    <h3>FORMACION ACADEMICA</h3>
+                    <p>En en el vientre materno, tuve el despertar de mis poderes mutantes. <br>
+                        Graduado con honores en<strong> HARVARD </strong> tambien tengo
+                        <strong>DOCTORADO en GENETICA, BIOFISICA y PSICOLOGIA</strong>. 
+                    </p>
+    
+                </section>
+            </div>
+    
+            <div class="encolumnar" id="experiencia">
+    
+                <section> <img id="imagen" src="imagenes/LINEA.png" alt="lineadetiempo"></section>
+    
+    <!-- LISTA ORDENADA-->
+                <section>
+                    <h2 id="titulo">EXPERIENCIA LABORAL</h2>
+    
+                    <ol>
+                        <li>X-Men 1 (2000)</li>
+                        <li>X-MEN 2 (2003)</li>
+                        <li>X-Men: La última batalla (2006)</li>
+                        <li>X-Men Orígenes: Lobezno (2009)</li>
+                        <li>X-Men: Días del futuro pasado (2014)</li>
+                        <li>X-Men: Apocalipsis (2016)</li>
+                        <li>Fénix Oscura (2019)</li>
+                    </ol>
+    
+                </section>
+    
+            </div>
+    
+    <!-- TEXTO PARALELO AL FORM-->
+            <div class="encolumnar" id="contacto">
+                <section>
+    
+                    <h4>¿Quéres <br>saber más de mí?</h4>
+    
+    
+                    <p id="item">CONTACTAME, ENVIAME TU CONSULTA >> </p>
+                </section>
+    
+    <!-- FORM-->
+                <section>
+    
+                    <form>
+                        <label> NOMBRE: <span>*</span><br> </label> 
+                        <input type="text" name="NOMBRE" id="NOMBRE" placeholder= "INGRESE SU NOMBRE" required type="text"/>
+
+                        <label> MAIL <span>*</span><br> </label>
+                        <input type="text" name="MAIL" id="MAIL" placeholder= "INGRESE SU MAIL INFO@DOMINIO.COM" required type="email"/>
+
+                        <label>
+                            MENSAJE <span>*</span> <br>
+                            <textarea required name="comentarios" id="MENSAJE" placeholder="INGRESE SUS COMENTARIOS POR FAVOR" 
+                            cols="30" rows="10"></textarea>
+                        </label>
+                        
+                        <div class="boton encolumnar ">
+                            <input type="submit" onclick="captura ()" value="Enviar Consulta">
+                            <input type="reset" value="Borrar">
+                        </div>
+                    </form>
+    
+    
+                </section>
+    
+    
+            </div>
+        </main>
+
+    <!-- REDES-->
+        <aside class="encolumnar">
+            
+                 <a href="http://www.instagram.com" target="_blank"> <img src="imagenes/instagram-icon.png" alt="instagram"></a>
+                 <a href="https://www.youtube.com/watch?v=krDGEEOnPLg"target="_blank"><img src="imagenes/youtube.png" alt="youtube"></a> 
+                 <a href="https://www.linkedin.com" target="_blank"><img src="imagenes/linkedin-icon.png" alt="linkedIn"> </a>
+                 <a href="https://www.facebook.com"target="_blank"><img src="imagenes/facebook-icon.png" alt="facebook"> </a>
+    
+    
+        </aside>
+    
+    <!-- CONTACTOS-->
+        <footer>
+    
+            <h1> Front end >>> Jorge de Sousa </h1>
+            <a href="mailto: dunoalternativo@gmail.com?subject=Solicitud de mas Información">DUNOALTERNATIVO@GMAIL.COM</a>
+    
+    
+        </footer>
+    </body>
+    
+    </html>

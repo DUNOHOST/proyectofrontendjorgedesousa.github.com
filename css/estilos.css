@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*datos generales del cuerpo*/
+body {
+    background-color: rgb(240, 240, 240);
+    color: #333;
+    font: 400;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ancho de las divisiones de la pagina*/
+section {
+    width: 75%;
+}
+
+main {
+    font-size: 21px;
+}
+
+/*diseño links anclas*/
+nav a {
+    margin-left: 20px;
+    color:rgb(229, 255, 0);
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*flex y cabecera top azul*/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 35px;
+    background-color:rgb(8, 35, 76);
+    margin: -8px;
+
+}
+
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+/* Nombre del Cv*/
+header h1 {
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: italic;
+    padding-right: auto;
+    border-style:double; border-width: 5px; 
+    background-color: #232323;
+    color: #FFF;
+    box-shadow: 5px 5px 15px 5px #000000;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 
+    0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 
+    0 0 55px #49FF18, 0 0 75px #49ff18
+}
+
+/*Titulos importantes para encabezados*/
+
+h2,h3,h4{ color:rgb(229, 255, 0);}
+
+#item {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*titulos cv*/
+
+h2,h3{
+    background-color: rgb(8, 35, 76);
+    margin-bottom: 5px;
+    display: inline;
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: none;
+}
+
+/* encabezado de la experiencia*/
+
+#titulo {
+    font-size: 40px;
+}
+
+/* caracteristicas generales de las secciones */
+
+header.encolumnar,
+aside.encolumnar {
+    border-bottom: none;
+}
+
+/* imagen del perfil */
+
+header img {
+    margin-top: 7%;
+    width: 65%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+/*parrafo de inicio de presentacion cv*/ 
+
+/* total general */
+footer,
+main,
+header,
+aside {
+    width: 100%;
+}
+
+/* imagen de linea de tiempo laboral */
+#imagen {
+    width: 90%;
+    display: block;
+    margin: auto; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+/*formulario y su diseño*/
+span {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 40px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+form {
+    margin: auto;
+}
+
+.encolumnar {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;    
+    
+}
+
+.encolumnar img:hover{
+    filter: opacity(0.5);
+}
+
+.boton {
+    padding: 0;
+    border-bottom: none;
+}
+
+.boton input {
+
+    border: none;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+ol li {
+    margin-bottom: 2%;
+}
+
+/*encabezado de contacto*/
+h4 {
+    margin: 0;
+    font-size: 51px;
+    color:rgb(229, 255, 0);
+    background-color:rgb(8, 35, 76);
+    line-height: 100px;
+    padding: 10px;
+    display: inline;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+/*diseño pie de pagina*/
+
+footer {
+    height: 100px;
+    padding: 15px;
+    background-color: rgb(8, 35, 76);
+    display: flex;
+    align-items: center;
+    margin: -8px;
+}
+
+/*texto pie de pagina*/
+footer h1 {
+    margin-right: 10px;
+    font-size: 33px;
+    color:rgb(229, 255, 0);
+    box-shadow: 5px 5px 15px 5px #000000;
+   
+}
+
+footer a {
+    margin-left: 600px;
+    color: rgb(229, 255, 0);
+    text-decoration: solid;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+/*imagen de las redes*/
+
+aside img {
+    height: auto;
+    width: 60%;
+}
+
+
